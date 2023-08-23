@@ -13,10 +13,10 @@
 }
 
 .meme-generator img{
-    height: 420px;
+   height: 420px;
    width:80%;
-   max-width:400px
-    object-fit:fill;
+   max-width:400px;
+   object-fit: fill;
 }
 
 .meme-generator-btn{
