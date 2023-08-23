@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+   
+    box-sizing: border-box;
+
+
+}
+.meme-generator{
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.meme-generator img{
+    height: 420px;
+    object-fit:fill;
+}
+
+.meme-generator-btn{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 40px;
+    margin: 10px 0;
+    font-size: 25px;
+    border: 1px solid gray;
+    background: #f1f1f1;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.meme-generator-btn:hover{
+    padding: 8px 36px;
+    letter-spacing: 3px;
+    background-color: #00ff40;
+}
+
+.meme-generator .meme-author{
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  
+}
